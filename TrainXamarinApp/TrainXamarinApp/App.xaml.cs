@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace TrainXamarinApp
 {
@@ -9,8 +7,7 @@ namespace TrainXamarinApp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new StackPage();
         }
 
         protected override void OnStart()
